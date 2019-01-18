@@ -1,5 +1,5 @@
-from discord.ext import commands
 import discord, random
+from discord.ext import commands
 
 bot = commands.Bot(command_prefix = "!", status = discord.Status.idle, activity= discord.Game(name="#SmackQueenYaQueen"))
 jawab = ["Iyaaaaaa", "Nggakkkk"]
